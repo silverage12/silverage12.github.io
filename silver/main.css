@@ -272,8 +272,15 @@ html {
   align-items: center;
   position: relative;
   overflow: hidden;
-  background: url(./images/s_1.png) no-repeat;
+  background: url(/images/s_1.png) no-repeat;
   background-size: cover; }
+@keyframes anim_list {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
   .forma .form {
     width: 50%;
     height: 80%;
@@ -296,70 +303,136 @@ html {
         font-size: 4vh;
         font-family: "roboto";
         letter-spacing: 0.3em; }
-    .forma .form .buttons_wrapper {
-      width: 100%;
-      height: 10%;
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      background-color: black; }
-      .forma .form .buttons_wrapper button {
-        border: none;
-        outline: none;
-        min-width: 30%;
-        height: 7vh;
-        background-color: black;
-        color: white;
-        cursor: pointer;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border-radius: 10px;
-        font-size: 2.8vh;
-        font-weight: 900;
-        font-family: "monserat";
-        letter-spacing: 0.1em;
-        border: solid 1px white;
-        transition: ease-in-out 0.5s; }
-      .forma .form .buttons_wrapper .active {
-        background-color: black;
-        color: #fff; }
-      .forma .form .buttons_wrapper button:hover {
-        background-color: #1a1a1a;
-        color: #fff; }
     .forma .form .form_sell {
       width: 100%;
       height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      align-items: center; }
+      align-items: center;
+      box-sizing: border-box;
+      padding: 0 3%; }
       .forma .form .form_sell h1 {
         color: white;
-        font-size: 3vh;
+        font-size: 2.8vh;
         font-family: "roboto";
         letter-spacing: 0.2em; }
-      .forma .form .form_sell form {
-        height: 90%;
+      .forma .form .form_sell .buy_sell {
         width: 100%;
+        height: 80%;
+        display: flex; }
+        .forma .form .form_sell .buy_sell .sell {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .forma .form .form_sell .buy_sell .sell .whosell {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            align-items: center; }
+            .forma .form .form_sell .buy_sell .sell .whosell .whosell_item {
+              display: flex;
+              width: 100%;
+              height: auto;
+              box-sizing: border-box;
+              padding: 3% 1%;
+              opacity: 0;
+              justify-content: space-between;
+              align-items: center;
+              font-family: "monserat";
+              background-color: black;
+              border: solid 1px #fff;
+              font-size: 3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item p {
+                font-size: 2.5vh;
+                color: white; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item span {
+                font-size: 2.5vh;
+                color: white;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item img {
+                width: 15px;
+                height: 15px;
+                margin-left: 2px; }
+        .forma .form .form_sell .buy_sell .buy {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .forma .form .form_sell .buy_sell .buy .whobuy {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+            align-items: center; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item {
+              display: flex;
+              width: 100%;
+              height: auto;
+              box-sizing: border-box;
+              padding: 3% 1%;
+              justify-content: space-between;
+              align-items: center;
+              font-family: "monserat";
+              background-color: black;
+              border: solid 1px #fff;
+              font-size: 3vh; }
+              .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item p {
+                font-size: 2.5vh;
+                color: white; }
+              .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item span {
+                font-size: 2.5vh;
+                color: white;
+                display: flex;
+                align-items: center; }
+              .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item img {
+                width: 15px;
+                height: 15px;
+                margin-left: 2px; }
+      .forma .form .form_sell .buttons_wrapper {
+        width: 100%;
+        height: 10%;
         display: flex;
-        flex-direction: column;
         align-items: center;
-        justify-content: space-evenly; }
-        .forma .form .form_sell form input {
+        justify-content: space-around;
+        background-color: black; }
+        .forma .form .form_sell .buttons_wrapper a {
           border: none;
           outline: none;
-          height: 35px;
-          border-radius: 10px;
+          text-decoration: none;
+          min-width: 30%;
+          height: 7vh;
+          background-color: black;
+          color: white;
+          cursor: pointer;
           display: flex;
-          font-size: 3vh;
-          color: black;
+          justify-content: center;
           align-items: center;
-          box-sizing: border-box;
-          padding: 0 3%; }
-        .forma .form .form_sell form input::placeholder {
-          font-size: 3vh;
-          color: black; }
+          border-radius: 10px;
+          font-size: 2.8vh;
+          font-weight: 900;
+          font-family: "monserat";
+          letter-spacing: 0.1em;
+          border: solid 1px white;
+          transition: ease-in-out 0.5s; }
+        .forma .form .form_sell .buttons_wrapper .active {
+          background-color: black;
+          color: #fff; }
+        .forma .form .form_sell .buttons_wrapper button:hover {
+          background-color: #1a1a1a;
+          color: #fff; }
 
 .footer {
   width: 100%;

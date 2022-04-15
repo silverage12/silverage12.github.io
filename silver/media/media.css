@@ -97,23 +97,55 @@
           height: 40px; }
 
   .forma {
-    height: 60vh; }
+    height: 60vh;
+    width: 100%; }
     .forma .form {
-      width: 80%;
+      width: 93%;
       height: 80%;
       border: 2px solid #fff; }
-      .forma .form .form_sell h1 {
-        font-size: 1.8vh; }
-      .forma .form .form_sell form input {
-        width: 80%;
-        height: 30px;
-        font-size: 2vh; }
-      .forma .form .form_sell form input::placeholder {
-        font-size: 2vh; }
-      .forma .form .form_sell form .buttons_wrapper button {
-        width: 35%;
-        height: 30px;
-        font-size: 1.8vh; }
+      .forma .form .form_sell {
+        justify-content: space-around; }
+        .forma .form .form_sell h1 {
+          font-size: 1.7vh;
+          text-align: center; }
+        .forma .form .form_sell .buy_sell {
+          height: 70%; }
+          .forma .form .form_sell .buy_sell .sell {
+            border-right: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .sell .whosell .whosell_item {
+              height: 15%;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              border: none;
+              border-bottom: 1px solid #fff; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item p {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item span {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item img {
+                width: 1.3vh;
+                height: 1.3vh;
+                margin-left: 0; }
+          .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border: none;
+            border-bottom: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item p {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item span {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item img {
+              width: 1.3vh;
+              height: 1.3vh;
+              margin-left: 0; }
+        .forma .form .form_sell .buttons_wrapper a {
+          width: 35%;
+          height: 30px;
+          font-size: 1.8vh; }
 
   .footer {
     height: 20vh; }
@@ -241,23 +273,55 @@
           height: 40px; }
 
   .forma {
-    height: 60vh; }
+    height: 60vh;
+    width: 100%; }
     .forma .form {
-      width: 80%;
+      width: 93%;
       height: 80%;
       border: 2px solid #fff; }
-      .forma .form .form_sell h1 {
-        font-size: 1.8vh; }
-      .forma .form .form_sell form input {
-        width: 80%;
-        height: 30px;
-        font-size: 2vh; }
-      .forma .form .form_sell form input::placeholder {
-        font-size: 2vh; }
-      .forma .form .form_sell form .buttons_wrapper button {
-        width: 35%;
-        height: 30px;
-        font-size: 1.8vh; }
+      .forma .form .form_sell {
+        justify-content: space-around; }
+        .forma .form .form_sell h1 {
+          font-size: 1.7vh;
+          text-align: center; }
+        .forma .form .form_sell .buy_sell {
+          height: 70%; }
+          .forma .form .form_sell .buy_sell .sell {
+            border-right: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .sell .whosell .whosell_item {
+              height: 15%;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              border: none;
+              border-bottom: 1px solid #fff; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item p {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item span {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item img {
+                width: 1.3vh;
+                height: 1.3vh;
+                margin-left: 0; }
+          .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border: none;
+            border-bottom: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item p {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item span {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item img {
+              width: 1.3vh;
+              height: 1.3vh;
+              margin-left: 0; }
+        .forma .form .form_sell .buttons_wrapper a {
+          width: 35%;
+          height: 30px;
+          font-size: 1.8vh; }
 
   .footer {
     height: 20vh; }
@@ -385,23 +449,55 @@
           height: 40px; }
 
   .forma {
-    height: 60vh; }
+    height: 60vh;
+    width: 100%; }
     .forma .form {
-      width: 80%;
+      width: 93%;
       height: 80%;
       border: 2px solid #fff; }
-      .forma .form .form_sell h1 {
-        font-size: 1.8vh; }
-      .forma .form .form_sell form input {
-        width: 80%;
-        height: 30px;
-        font-size: 2vh; }
-      .forma .form .form_sell form input::placeholder {
-        font-size: 2vh; }
-      .forma .form .form_sell form .buttons_wrapper button {
-        width: 35%;
-        height: 30px;
-        font-size: 1.8vh; }
+      .forma .form .form_sell {
+        justify-content: space-around; }
+        .forma .form .form_sell h1 {
+          font-size: 1.7vh;
+          text-align: center; }
+        .forma .form .form_sell .buy_sell {
+          height: 70%; }
+          .forma .form .form_sell .buy_sell .sell {
+            border-right: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .sell .whosell .whosell_item {
+              height: 15%;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              border: none;
+              border-bottom: 1px solid #fff; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item p {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item span {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item img {
+                width: 1.3vh;
+                height: 1.3vh;
+                margin-left: 0; }
+          .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border: none;
+            border-bottom: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item p {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item span {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item img {
+              width: 1.3vh;
+              height: 1.3vh;
+              margin-left: 0; }
+        .forma .form .form_sell .buttons_wrapper a {
+          width: 35%;
+          height: 30px;
+          font-size: 1.8vh; }
 
   .footer {
     height: 20vh; }
@@ -529,23 +625,55 @@
           height: 40px; }
 
   .forma {
-    height: 60vh; }
+    height: 60vh;
+    width: 100%; }
     .forma .form {
-      width: 80%;
+      width: 93%;
       height: 80%;
       border: 2px solid #fff; }
-      .forma .form .form_sell h1 {
-        font-size: 1.8vh; }
-      .forma .form .form_sell form input {
-        width: 80%;
-        height: 30px;
-        font-size: 2vh; }
-      .forma .form .form_sell form input::placeholder {
-        font-size: 2vh; }
-      .forma .form .form_sell form .buttons_wrapper button {
-        width: 35%;
-        height: 30px;
-        font-size: 1.8vh; }
+      .forma .form .form_sell {
+        justify-content: space-around; }
+        .forma .form .form_sell h1 {
+          font-size: 1.7vh;
+          text-align: center; }
+        .forma .form .form_sell .buy_sell {
+          height: 70%; }
+          .forma .form .form_sell .buy_sell .sell {
+            border-right: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .sell .whosell .whosell_item {
+              height: 15%;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              border: none;
+              border-bottom: 1px solid #fff; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item p {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item span {
+                font-size: 1.3vh; }
+              .forma .form .form_sell .buy_sell .sell .whosell .whosell_item img {
+                width: 1.3vh;
+                height: 1.3vh;
+                margin-left: 0; }
+          .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item {
+            height: 15%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            border: none;
+            border-bottom: 1px solid #fff; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item p {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item span {
+              font-size: 1.3vh; }
+            .forma .form .form_sell .buy_sell .buy .whobuy .whosell_item img {
+              width: 1.3vh;
+              height: 1.3vh;
+              margin-left: 0; }
+        .forma .form .form_sell .buttons_wrapper a {
+          width: 35%;
+          height: 30px;
+          font-size: 1.8vh; }
 
   .footer {
     height: 20vh; }

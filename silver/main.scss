@@ -373,6 +373,11 @@
     //         animation: lol infinite 6s ease-in-out;
     //     }
     // }
+    @keyframes  anim_list{
+        0%{opacity: 0;}
+        50%{opacity: 1;}
+        100%{opacity: 0;}
+    }
     .form{
         width: 50%;
         height: 80%;
@@ -400,47 +405,7 @@
                 letter-spacing: 0.3em;
             }
         }
-        .buttons_wrapper{
-            width: 100%;
-            height: 10%;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            background-color: rgb(0, 0, 0);
-            // box-sizing: border-box;
-            // padding: 0 5%;
-            // border-right: 1px solid #fff;
-            // border-left: 1px solid #fff;
-            // border-bottom: 1px solid #fff;
-            button{
-                border: none;
-                outline: none;
-                min-width: 30%;
-                height: 7vh;
-                background-color: rgb(0, 0, 0);
-                color: rgb(255, 255, 255);
-                cursor: pointer;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                border-radius: 10px;
-                font-size: 2.8vh;
-                font-weight: 900;
-                font-family: $font-monserat;
-                letter-spacing: 0.1em;
-                border:solid 1px rgb(255, 255, 255);
-                transition: ease-in-out 0.5s;
-                
-            }
-            .active{
-                background-color: black;
-                color: #fff;
-            }
-            button:hover{
-                background-color: rgb(26, 26, 26);
-                color: #fff;
-            }
-        }
+
         .form_sell{
             width: 100%;
             height: 100%;
@@ -448,34 +413,152 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+            box-sizing: border-box;
+            padding: 0 3%;
             h1{
                 color: rgb(255, 255, 255);
-                font-size: 3vh;
+                font-size: 2.8vh;
                 font-family: $font-roboto;
                 letter-spacing: 0.2em;
             }
-            form{
-                height: 90%;
+            .buy_sell{
                 width: 100%;
+                height: 80%;
                 display: flex;
-                flex-direction: column;
+                .sell{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .whosell{
+                        width: 100%;
+                        height: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        overflow: hidden;
+                        align-items: center;
+                        .whosell_item{
+                            display: flex;
+                            width: 100%;
+                            height: auto;
+                            box-sizing: border-box;
+                            padding: 3% 1%;
+                            opacity: 0;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-family: $font-monserat;
+                            background-color: rgb(0, 0, 0);
+                            border:solid 1px #fff;
+                            font-size: 3vh;
+                            p{
+                                font-size: 2.5vh;
+                                color: rgb(255, 255, 255);
+                            }
+                            span{
+                                font-size: 2.5vh;
+                                color: rgb(255, 255, 255);
+                                display: flex;
+                                justify-content: flex-end;
+                                align-items: center;
+                            }
+                            img{
+                                width: 15px;
+                                height: 15px;
+                                margin-left: 2px;
+                            }
+                        }
+                    }
+                }
+                .buy{
+                    width: 50%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .whobuy{
+                        width: 100%;
+                        height: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        overflow: hidden;
+                        align-items: center;
+                        .whosell_item{
+                            display: flex;
+                            width: 100%;
+                            height: auto;
+                            box-sizing: border-box;
+                            padding: 3% 1%;
+                            justify-content: space-between;
+                            align-items: center;
+                            font-family: $font-monserat;
+                            background-color: rgb(0, 0, 0);
+                            border:solid 1px #fff;
+                            font-size: 3vh;
+                            p{
+                                font-size: 2.5vh;
+                                color: rgb(255, 255, 255);
+                            }
+                            span{
+                                font-size: 2.5vh;
+                                color: rgb(255, 255, 255);
+                                display: flex;
+                                align-items: center;
+                            }
+                            img{
+                                width: 15px;
+                                height: 15px;
+                                margin-left: 2px;
+                            }
+                        }
+                    }
+                }
+            }
+   
+            .buttons_wrapper{
+                width: 100%;
+                height: 10%;
+                display: flex;
                 align-items: center;
-                justify-content: space-evenly;
-                input{
+                justify-content: space-around;
+                background-color: rgb(0, 0, 0);
+                // box-sizing: border-box;
+                // padding: 0 5%;
+                // border-right: 1px solid #fff;
+                // border-left: 1px solid #fff;
+                // border-bottom: 1px solid #fff;
+                a{
                     border: none;
                     outline: none;
-                    height: 35px;
-                    border-radius: 10px;
+                    text-decoration: none;
+                    min-width: 30%;
+                    height: 7vh;
+                    background-color: rgb(0, 0, 0);
+                    color: rgb(255, 255, 255);
+                    cursor: pointer;
                     display: flex;
-                    font-size: 3vh;
-                    color: black;
+                    justify-content: center;
                     align-items: center;
-                    box-sizing: border-box;
-                    padding: 0 3%;
+                    border-radius: 10px;
+                    font-size: 2.8vh;
+                    font-weight: 900;
+                    font-family: $font-monserat;
+                    letter-spacing: 0.1em;
+                    border:solid 1px rgb(255, 255, 255);
+                    transition: ease-in-out 0.5s;
+                    
                 }
-                input::placeholder{
-                    font-size: 3vh;
-                    color: black;
+                .active{
+                    background-color: black;
+                    color: #fff;
+                }
+                button:hover{
+                    background-color: rgb(26, 26, 26);
+                    color: #fff;
                 }
             }
         }

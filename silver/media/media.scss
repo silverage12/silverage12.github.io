@@ -129,31 +129,77 @@
      }
      .forma{
           height: 60vh;
+          width: 100%;
           .form{
-               width:80%;
+               width:93%;
                height: 80%;
         
                border:2px solid #fff;
                .form_sell{
-               
-                    h1{
-                         font-size: 1.8vh;
-                    }
-                    form{
-                         input{
-                              width: 80%;
-                              height: 30px;
-                              font-size: 2vh;
+                    justify-content: space-around;
+               h1{
+                    font-size: 1.7vh;
+                    text-align: center;
+               }
+                    .buy_sell{
+                         height: 70%;
+                         .sell{
+                              border-right: 1px solid #fff;
+                             .whosell{
+
+                                 .whosell_item{
+                                      height: 15%;
+                                      width: 100%;
+                                      display: flex;
+                                      align-items: center;
+                                      border: none;
+                                      border-bottom: 1px solid #fff;
+                                     p{
+                                        font-size: 1.3vh;
+                                     }
+                                     span{
+                                        font-size: 1.3vh;
+                                     }
+                                     img{
+                                          width: 1.3vh;
+                                          height: 1.3vh;
+                                          margin-left: 0;
+                                     }
+                                 }
+                             }
                          }
-                         input::placeholder{
-                              font-size: 2vh;
-                         }
-                         .buttons_wrapper{
-                              button{
-                                   width: 35%;
-                                   height: 30px;
-                                   font-size: 1.8vh;
+                         .buy{
+
+                             .whobuy{
+
+                              .whosell_item{
+                                   height: 15%;
+                                   width: 100%;
+                                   display: flex;
+                                   align-items: center;
+                                   border: none;
+                                   border-bottom: 1px solid #fff;
+                                  p{
+                                     font-size: 1.3vh;
+                                  }
+                                  span{
+                                     font-size: 1.3vh;
+                                  }
+                                  img{
+                                       width: 1.3vh;
+                                       height: 1.3vh;
+                                       margin-left: 0;
+                                  }
                               }
+                             }
+                         }
+                     }
+            
+                    .buttons_wrapper{
+                         a{
+                              width: 35%;
+                              height: 30px;
+                              font-size: 1.8vh;
                          }
                     }
                }
@@ -332,31 +378,77 @@
      }
      .forma{
           height: 60vh;
+          width: 100%;
           .form{
-               width:80%;
+               width:93%;
                height: 80%;
         
                border:2px solid #fff;
                .form_sell{
-               
-                    h1{
-                         font-size: 1.8vh;
-                    }
-                    form{
-                         input{
-                              width: 80%;
-                              height: 30px;
-                              font-size: 2vh;
+                    justify-content: space-around;
+               h1{
+                    font-size: 1.7vh;
+                    text-align: center;
+               }
+                    .buy_sell{
+                         height: 70%;
+                         .sell{
+                              border-right: 1px solid #fff;
+                             .whosell{
+
+                                 .whosell_item{
+                                      height: 15%;
+                                      width: 100%;
+                                      display: flex;
+                                      align-items: center;
+                                      border: none;
+                                      border-bottom: 1px solid #fff;
+                                     p{
+                                        font-size: 1.3vh;
+                                     }
+                                     span{
+                                        font-size: 1.3vh;
+                                     }
+                                     img{
+                                          width: 1.3vh;
+                                          height: 1.3vh;
+                                          margin-left: 0;
+                                     }
+                                 }
+                             }
                          }
-                         input::placeholder{
-                              font-size: 2vh;
-                         }
-                         .buttons_wrapper{
-                              button{
-                                   width: 35%;
-                                   height: 30px;
-                                   font-size: 1.8vh;
+                         .buy{
+
+                             .whobuy{
+
+                              .whosell_item{
+                                   height: 15%;
+                                   width: 100%;
+                                   display: flex;
+                                   align-items: center;
+                                   border: none;
+                                   border-bottom: 1px solid #fff;
+                                  p{
+                                     font-size: 1.3vh;
+                                  }
+                                  span{
+                                     font-size: 1.3vh;
+                                  }
+                                  img{
+                                       width: 1.3vh;
+                                       height: 1.3vh;
+                                       margin-left: 0;
+                                  }
                               }
+                             }
+                         }
+                     }
+            
+                    .buttons_wrapper{
+                         a{
+                              width: 35%;
+                              height: 30px;
+                              font-size: 1.8vh;
                          }
                     }
                }
@@ -535,31 +627,77 @@
      }
      .forma{
           height: 60vh;
+          width: 100%;
           .form{
-               width:80%;
+               width:93%;
                height: 80%;
         
                border:2px solid #fff;
                .form_sell{
-               
-                    h1{
-                         font-size: 1.8vh;
-                    }
-                    form{
-                         input{
-                              width: 80%;
-                              height: 30px;
-                              font-size: 2vh;
+                    justify-content: space-around;
+               h1{
+                    font-size: 1.7vh;
+                    text-align: center;
+               }
+                    .buy_sell{
+                         height: 70%;
+                         .sell{
+                              border-right: 1px solid #fff;
+                             .whosell{
+
+                                 .whosell_item{
+                                      height: 15%;
+                                      width: 100%;
+                                      display: flex;
+                                      align-items: center;
+                                      border: none;
+                                      border-bottom: 1px solid #fff;
+                                     p{
+                                        font-size: 1.3vh;
+                                     }
+                                     span{
+                                        font-size: 1.3vh;
+                                     }
+                                     img{
+                                          width: 1.3vh;
+                                          height: 1.3vh;
+                                          margin-left: 0;
+                                     }
+                                 }
+                             }
                          }
-                         input::placeholder{
-                              font-size: 2vh;
-                         }
-                         .buttons_wrapper{
-                              button{
-                                   width: 35%;
-                                   height: 30px;
-                                   font-size: 1.8vh;
+                         .buy{
+
+                             .whobuy{
+
+                              .whosell_item{
+                                   height: 15%;
+                                   width: 100%;
+                                   display: flex;
+                                   align-items: center;
+                                   border: none;
+                                   border-bottom: 1px solid #fff;
+                                  p{
+                                     font-size: 1.3vh;
+                                  }
+                                  span{
+                                     font-size: 1.3vh;
+                                  }
+                                  img{
+                                       width: 1.3vh;
+                                       height: 1.3vh;
+                                       margin-left: 0;
+                                  }
                               }
+                             }
+                         }
+                     }
+            
+                    .buttons_wrapper{
+                         a{
+                              width: 35%;
+                              height: 30px;
+                              font-size: 1.8vh;
                          }
                     }
                }
@@ -738,31 +876,77 @@
      }
      .forma{
           height: 60vh;
+          width: 100%;
           .form{
-               width:80%;
+               width:93%;
                height: 80%;
         
                border:2px solid #fff;
                .form_sell{
-               
-                    h1{
-                         font-size: 1.8vh;
-                    }
-                    form{
-                         input{
-                              width: 80%;
-                              height: 30px;
-                              font-size: 2vh;
+                    justify-content: space-around;
+               h1{
+                    font-size: 1.7vh;
+                    text-align: center;
+               }
+                    .buy_sell{
+                         height: 70%;
+                         .sell{
+                              border-right: 1px solid #fff;
+                             .whosell{
+
+                                 .whosell_item{
+                                      height: 15%;
+                                      width: 100%;
+                                      display: flex;
+                                      align-items: center;
+                                      border: none;
+                                      border-bottom: 1px solid #fff;
+                                     p{
+                                        font-size: 1.3vh;
+                                     }
+                                     span{
+                                        font-size: 1.3vh;
+                                     }
+                                     img{
+                                          width: 1.3vh;
+                                          height: 1.3vh;
+                                          margin-left: 0;
+                                     }
+                                 }
+                             }
                          }
-                         input::placeholder{
-                              font-size: 2vh;
-                         }
-                         .buttons_wrapper{
-                              button{
-                                   width: 35%;
-                                   height: 30px;
-                                   font-size: 1.8vh;
+                         .buy{
+
+                             .whobuy{
+
+                              .whosell_item{
+                                   height: 15%;
+                                   width: 100%;
+                                   display: flex;
+                                   align-items: center;
+                                   border: none;
+                                   border-bottom: 1px solid #fff;
+                                  p{
+                                     font-size: 1.3vh;
+                                  }
+                                  span{
+                                     font-size: 1.3vh;
+                                  }
+                                  img{
+                                       width: 1.3vh;
+                                       height: 1.3vh;
+                                       margin-left: 0;
+                                  }
                               }
+                             }
+                         }
+                     }
+            
+                    .buttons_wrapper{
+                         a{
+                              width: 35%;
+                              height: 30px;
+                              font-size: 1.8vh;
                          }
                     }
                }
